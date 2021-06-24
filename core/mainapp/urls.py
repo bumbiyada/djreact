@@ -8,3 +8,4 @@ urlpatterns = [
     path('mainapp/list', MainAppListView.as_view()),
     path('mainapp/detail/<int:pk>/', MainAppDetailView.as_view())
 ]
+

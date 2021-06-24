@@ -5,7 +5,7 @@ from .models import ListAll
 class MainAppListSerializer(serializers.ModelSerializer):
     class Meta:
         model = ListAll
-        fields = ('id', 'Foiv', 'Stage_user')
+        fields = '__all__'
 
 
 class MainAppDetailSerializer(serializers.ModelSerializer):
